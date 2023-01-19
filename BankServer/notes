@@ -1,0 +1,73 @@
+
+
+1 creating a folder -(bank server)
+2 create a package.json file (npm init)
+3 create a nodemodule file(npm i express)
+4 create index.js file
+5 import express inside index.js
+6 create app using express
+7 set up port  number
+8 resolving http request
+9 install nodemon - npm i nodemon
+10 Http Response Code
+
+     100  -  information
+     200  -  sucessfull
+     300  -  redirection
+     400  -  client error
+     500  -  server error
+
+11)JWT -  authentication
+
+          In simple terms, authentication is the process of verifying who a user is,
+           while authorization is the process of verifying what they have access to.
+
+     to check login or not ?
+
+     login -------token generate ------->client----req to deposit + token ---> server token check ?
+
+
+     install JWT token - jsonwebtoken
+
+          npm i jsonwebtoken
+
+          to generate a new JWT token - sign()
+
+12) Middleware - to verify the token
+
+     - it comes in the middle of the request and response
+     - it also provides access to many functions
+
+
+          1. Application-level middleware
+          
+          - for entire application
+          
+          2. Router-level middleware
+
+          -to verify the token
+
+          to validate the token - verify
+
+
+13)Database Integration
+    1) install mongoose - npm i mongoose(for connecting nodejs and mongodb)
+    2) DB connect via mongoose
+    3)create a model using mongoose
+
+14)Asynchronous function resolving
+     1)resolving state - then ()
+     2) rejection state - catch()
+
+15)CORS - cross origin Resource sharing 
+
+     [ npm install cors --save ]
+
+     Cross-origin resource sharing (CORS) is a standard that manages communication between 2 or multiple domains.
+
+CORS is a mechanism for accessing data on various domains, that data type could be images, stylesheets, js scripts, iframes, and videos. This mechanism is used for sharing restricted resources on a web page asked from a different domain.
+
+
+
+
+

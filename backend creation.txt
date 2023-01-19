@@ -1,0 +1,107 @@
+									Angular backend creation
+
+
+->first create a filder for backend
+
+
+1)type 'npm init '  in the vscode terminal.
+
+	type neccessary details,description,keyword,author,etc
+
+
+2)
+	type 'npm i express' in the vscode terminal.
+	
+
+
+3) create  a index.js file
+
+inside index.js type the following :-
+
+
+
+
+//server creation
+
+
+//1 import express
+
+
+const express = require('express')
+
+
+//2 create an app using express
+
+
+
+const app = express()
+
+
+
+//3 create a port number
+
+app.listen(3000,()=>{
+    console.log('listening on port 3000');
+})
+
+
+///////////////////////////////////////////////////
+-> then run the code using 'node index.js'
+
+
+
+//4 resolving http request
+
+//get
+app.get('/',(req,res)=>{
+    res.send('Get http request')
+
+})
+
+//post
+
+app.post('/',(req,res)=>{
+    res.send('post http request')
+
+})
+
+//put
+
+app.put('/',(req,res)=>{
+    res.send('put http request')
+
+})
+
+//patch
+
+app.patch('/',(req,res)=>{
+    res.send('patch http request')
+
+})
+
+//delete
+
+app.delete('/',(req,res)=>{
+    res.send('delete http request')
+
+})
+
+
+-> then run the code using 'node index.js'
+-> then open thunderclient and paste the url from the browser
+->then change request methods get,post,put,delete,patch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
